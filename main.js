@@ -19,6 +19,9 @@ class TurnsManager {
     }
     createTable() {
         let content = "<div class='modalContent'><table class='tableModal'><thead><tr><th>Especialidad</th><th>Dia</th><th>Hora</th><th>Eliminar</th></tr></thead><tbody>";
+        if (this.list === null) {
+            this.loadTurns()
+        }
         for (let i = 0; i < this.list.length; i++) {
             content += `<tr><td>${this.list[i].fullName}</td><td>${this.list[i].day}</td><td>${this.list[i].hour}</td><td><a class="trash" onclick="turnsManager.removeTurn(${i})"><span class="material-symbols-outlined">delete</span></a></td></tr>`;
         }
