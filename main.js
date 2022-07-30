@@ -79,6 +79,9 @@ class TurnsManager {
                         } else {
                             let turn = document.createElement("tr")
                             turn.innerHTML = `<td>${especialidad}</td><td>${diaTurno}</td><td>${horaTurno}</td>`;
+                            if ( this.list === null) {
+                                this.loadTurns()
+                            }
                             this.list.push(new Turn(especialidad, diaTurno, horaTurno));
                             sessionStorage.setItem("turns", JSON.stringify(this.list));
                             Swal.fire({
