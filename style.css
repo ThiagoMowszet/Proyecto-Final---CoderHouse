@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  color: rgb(0, 0, 0);
+  font-family: 'Kadwa', serif;
+
+}
+
+
+
+.menu {
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .2);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.menu ol img {
+  width: 50px;
+  height: 50px;
+}
+
+.menu ul {
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu ol {
+  padding: 5px;
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.menu li {
+  cursor: pointer;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #0E2362;
+  color: #fff;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.bg {
+  z-index: -9;
+  position: relative;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('img/doctora.jpeg');
+  background-size: cover;
+  opacity: 0.60;
+}
+
+.addFormAlert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addFormAlert label {
+  margin-top: 5px;
+}
+
+.addFormAlert input {
+  width: 400px;
+  padding: 8px;
+}
+
+.addFormAlert select {
+  width: 420px;
+  padding: 8px;
+}
+
+.verTurnos {
+  color: rgb(255, 255, 255);
+}
+
+.volver {
+  color: rgb(255, 255, 255);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+#addTurn {
+  margin-top: 15px;
+}
+
+#table {
+  margin-top: 15px;
+}
+
+.swal2-popup {
+  width: 800px;
+}
+
+.tableModal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 100%;
+  height: 500px;
+
+}
+
+.tableModal th {
+  background-color: #0E2362;
+  width: 250px;
+  text-align: center;
+  color: #fff;
+}
+
+.tableModal td {
+  width: 250px;
+  text-align: center;
+  color: #000;
+
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #0E2362;
+  color: #fff;
+}
+
+.trash {
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  color: #cc0000;
+  background-color: #ffffff;
+}
+
+.relative {
+  position: relative;
+}
+
+
+
+
+
+
+
+.card p {
+  font-size: 20px;
+}
+
+.relative h1 {
+  font-size: 37px;
+  color: #152B6D;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.container div {
+  display: flex;
+  gap: 50px;
+}
+
+.card {
+  width: 420px;
+  height: 250px;
+  background-color: #264296;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  padding: 20px;
+  background-color: #294084;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.redes img {
+  cursor: pointer;
+  width: 50px;
+  margin: 5px;
+}

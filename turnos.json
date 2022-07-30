@@ -1,0 +1,22 @@
+[
+    {
+        "fullName": "Oftalmologia",
+        "hour": "09:00",
+        "day": "2022-02-02"
+    },
+    {
+        "fullName": "Neurologia",
+        "hour": "12:00",
+        "day": "2022-09-09"
+    },
+    {
+        "fullName": "Infectologia",
+        "hour": "15:00",
+        "day": "2022-05-22"
+    },
+    {
+        "fullName": "Radiologia",
+        "hour": "18:15",
+        "day": "2022-02-02"
+    }
+]
